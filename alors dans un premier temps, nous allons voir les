@@ -1,0 +1,11 @@
+alors dans un premier temps, nous allons voir les technologies que nous avons utilisés afin de répondre au mieux au besoin du client 
+donc de par sa facilité de déploiment, nous avons priviligié une application web, html css, php et js 
+
+afin d'avoir une application ludique, convivial à utiliser, nous avons bootstrap afin d'avoir une mise en forme plus agréable, d'avoir un peu de responsive même si l'affichage de nos tables ne l'est pas . De plus pour cette partie graphique, nous avons utilisé jquery ui qui permet d'avoir le système d'onglet ainsi que les popup bien présenté .
+La jstree qui nous donne une arborescence pour les cycles de formation ou encore le choix des tables à exporter. Nous avons utilisé l'api google calendar qui permet d'acceder a l'agenda google directement depuis le site  
+Nous avons aussi utilisé un legér plugin comportant de multiple icon pour les boutons (font awesome)
+
+Ensuite pour ce qui est des parties plus profondes, nous avons utilisé beaucoup d'appel ajax avec le javascript lors des multiples ajouts, editions en passant des données au format json
+Pour la base de données, nous avons utilisé Mysql. Nous avons beaucoup developée en local grâce à un serveur php et nous avons utilisé github pour regrouper notre travail. De plus, nous avons effectué une synchronisation automatique lors d'un push avec le serveur web hébérgé par always data qui à permis au client de suivre en direct les modifications  
+
+Nous avons essayé de rendre la base de données sous forme 3FN 
